@@ -1,19 +1,25 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
-
+   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Javascript -->
   <script src="script.js"></script>
+  <!-- Link CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Ionicons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c8d9b90abf.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-
+<!-- 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Logo</a>
@@ -34,7 +40,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
 
 
@@ -45,26 +51,90 @@
   <!-- Fin boton Whatsapp principal -->
 
 
-  <div class="principal container-fluid py-3">
+  <div class="inicio container-fluid">
     <div class="row">
-      <div class="col-md-12">
+       <div class="col-md-12 text-center">
+        <h1>Logo</h1>
+       </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="nosotros container" id="nosotros">
+    <div class="row">
+      <div class="col-md-6">
+          <h1 class="pb-1">Quienes somos</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi eaque totam quasi labore dolorum dignissimos, ducimus quos soluta sapiente accusamus, doloremque libero tempora veritatis quis blanditiis consequatur, aperiam repellat recusandae hic aliquam iste fugiat asperiores laudantium. Dolore, sapiente repellat! Sunt veritatis enim nisi nobis quod cumque. Animi, dolorum. Incidunt!</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="./img/imagen2.jpg">
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  <div class="ventajas container">
+    <div class="titulo-ventajas text-center">
+      <h1>Ventajas</h1>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
         <div class="card">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="text-banner p-4">
-                <h1>Titulo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, architecto minus culpa explicabo neque odio sed inventore vel corrupti quam.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="imagen-banner py-4">
-                <img src="./img/imagen2.jpg" width="20%">
-              </div>
-            </div>
+          <div class="imagen-card text-center">
+            <img src="./img/card1.svg">
+          </div>
+          <div class="texto-card">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas laboriosam laborum recusandae quas hic earum modi nam fugiat. Velit tempora pariatur alias eos iusto doloribus quasi vitae deserunt ratione molestiae?</p>
           </div>
         </div>
       </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="imagen-card text-center">
+            <img src="./img/card2.svg">
+          </div>
+          <div class="texto-card">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas laboriosam laborum recusandae quas hic earum modi nam fugiat. Velit tempora pariatur alias eos iusto doloribus quasi vitae deserunt ratione molestiae?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="imagen-card text-center">
+            <img src="./img/card3.svg">
+          </div>
+          <div class="texto-card">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas laboriosam laborum recusandae quas hic earum modi nam fugiat. Velit tempora pariatur alias eos iusto doloribus quasi vitae deserunt ratione molestiae?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="imagen-card text-center">
+            <img src="./img/card3.svg">
+          </div>
+          <div class="texto-card">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas laboriosam laborum recusandae quas hic earum modi nam fugiat. Velit tempora pariatur alias eos iusto doloribus quasi vitae deserunt ratione molestiae?</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+
+
+  <div class="mapa container py-3 text-center">
+    <h1>Ubicacion</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31918.53338661664!2d-78.447993!3d-0.0520607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d588ec39c7ecb1%3A0x61e9e7213e98f75e!2sInstituto%20Tecnologico%20Superior%20Jap%C3%B3n!5e0!3m2!1ses!2sec!4v1647388323086!5m2!1ses!2sec" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
   </div>
 
 
@@ -78,7 +148,7 @@
 
           <div class="col-md-2 links">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Sobre Nosotros</a>
+              <a href="#nosotros" class="text-white">Sobre Nosotros</a>
             </h6>
           </div>
 

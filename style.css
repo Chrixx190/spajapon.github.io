@@ -2,6 +2,36 @@ body{
     background-color: #F6E7D8;
 }
 
+body::-webkit-scrollbar{
+    width: 5px;
+    background: #00000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+.inicio{
+    background-image: url("./img/foto-principal.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicio h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+
+
+
 .whatsapp {
     position:fixed;
     width:50px;
@@ -12,19 +42,62 @@ body{
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:37px;
+    font-size:36px;
     z-index:100;
 }
 
-
-
-
-.principal .card{
-    border-radius: 20px;
-    height: 150px;
-    border: none;
+.nosotros{
+    margin-top: 30px;
+}
+.ventajas{
+    margin-top: 20px;
+}
+.ventajas .titulo-ventajas{
+    margin-bottom: 20px;
 }
 
+
+.nosotros img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .nosotros img{
+        width: 100%;
+    }
+
+}
+
+
+.ventajas .card{
+    border: none;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.ventajas .card .imagen-card img{
+ width: 50%;
+}
+.ventajas .card .imagen-card{
+    padding: 20px;
+}
+.ventajas .card .texto-card{
+    padding: 0px 20px 20px 20px;
+}
+.ventajas .card .texto-card p{
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+
+    .ventajas .col-md-3{
+        margin-top: 20px;
+    }
+
+}
 
 .footer-principal{
     background-color: #000000;
@@ -35,4 +108,11 @@ body{
 }
 .footer-principal .links a{
     text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .footer-principal .links{
+        margin-top: 20px;
+    }
 }
